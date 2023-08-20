@@ -11,11 +11,11 @@ package ejercicio.contenedor;
  */
 public abstract class Envio {
 
-    protected int id; //los atributos son protected para que las subclases puedan tener acceso a ellas
+    protected int id; 
     protected String origen;
     protected String destino;
 
-    public Envio(int id, String origen, String destino) { //Creación de constructores
+    public Envio(int id, String origen, String destino) { 
         this.id = id;
         this.origen = origen;
         this.destino = destino;
