@@ -12,7 +12,7 @@ package ejercicio.contenedor;
 public class Carta extends Envio {
 
     public Carta(int id, String origen, String destino) {
-        super(id, origen, destino); //Esto es lo que manda a envio
+        super(id, origen, destino);
     }
 
 }
