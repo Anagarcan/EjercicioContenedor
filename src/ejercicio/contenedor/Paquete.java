@@ -11,11 +11,11 @@ package ejercicio.contenedor;
  */
 public class Paquete extends Envio {
 
-    private int peso; //No es protegido porque no hay ninguna clase que herede de nosotros y tenga que acceder a ella
+    private int peso;
 
-    public Paquete (int id, String origen, String destino, int peso) { //Constructor
-        super(id, origen, destino); //A envio envía el id, origen y destino
-        this.peso = peso; //Esto se queda en esta clase, sólo es característica (atributo de paquete)
+    public Paquete (int id, String origen, String destino, int peso) { 
+        super(id, origen, destino); 
+        this.peso = peso; 
     }
 
     public int getPeso() {
